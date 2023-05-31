@@ -1,0 +1,123 @@
+.stWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: rgba(185, 181, 175, 0.747);
+}
+
+.stContainer {
+  border-radius: 30px;
+  padding: 10px 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  background-color: white;
+
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  width: 100%;
+  max-width: 386px;
+}
+.stTextArea {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ 
+  border-radius: 30px;
+
+  height: calc(100vh -10px );
+}
+.bgImg{
+    position: relative;
+    overflow: hidden;
+}
+.bgImg img{
+    width: 100%;
+    object-fit: contain;
+    height: 400px;
+    
+
+}
+.stMainText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.stLogo {
+    position: absolute;
+  display: flex;
+  justify-content: left;
+   color: black;
+  padding: 20px;
+}
+.c-red{
+    color: red;
+}
+.stH2 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin: 0px;
+}
+.stH2 h2 {
+    color: black;
+  margin: 0px;
+  text-align: center;
+}
+.stP {
+
+  text-align: center;
+  color: blueviolet;
+}
+.stP p{
+    margin: 0px;
+}
+.stButton {
+    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.btn1{
+    flex: 5;
+    display: flex;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(149, 156, 156, 0.726);
+}
+.btn2,.btn3{
+    flex: 2;
+}
+.btnImg {
+    margin: 0px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+  width: 30px;
+  background-color: rgba(149, 156, 156, 0.726);
+}
+.btnImg img {
+  width: 40px;
+}
+.arrow{
+    transform: rotate(-235deg);
+}
+.redColor{
+    color: orangered;
+}
+
+.notextD{
+    text-decoration: none;
+    flex: 5;
+}

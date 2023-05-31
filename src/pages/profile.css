@@ -1,0 +1,188 @@
+.Pwrapper{
+    
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(143, 157, 168, 0.37);
+}
+.Pcontainer{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    max-width: 386px;
+    height: calc(100vh - 40px) ;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.Pheading{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    
+    padding: 5px 10px;
+}
+.Picon{
+    
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 50%;
+    background-color: rgba(176, 181, 185, 0.767);
+}
+.Pheading p{
+    flex: 6;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.descTitle{
+    text-align: center;
+    font-size: 28px;
+}
+.descTitle span {
+    z-index: 99;
+
+    font-weight: 600;
+}
+.tick{
+    margin-left: 8px;
+    color: blue;
+    font-size: 29px;
+}
+.descdescription{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.Plinks{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PlinksItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 4px 10px;
+    color: red;
+    background-color: rgba(153, 158, 161, 0.589);
+}
+.Pinterest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.PinterestTitle{
+    padding: 5px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PinterestTitle p{
+    color: rgba(15, 15, 15, 0.418);
+}
+
+.PinterestContents{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.PinterestContent{
+    padding: 8px 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: palevioletred;
+}
+.Pinteresticon{
+    margin-right: 8px;
+}
+
+.one{
+background-color: rgba(221, 100, 56, 0.699);
+}
+.two{
+    background-color: rgba(235, 110, 110, 0.788);
+}
+.three{
+    background-color: rgba(147, 80, 211, 0.671);
+}
+.four{
+    background-color: rgba(192, 105, 120, 0.685);
+}
+.imgGallary{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.gallary{
+    width: 100%;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imgWrapper img{
+    border-radius: 20px;
+}
+.centerImg{
+    width: 200px;
+    z-index: 4;
+}
+.centerImg img{
+    width: 175px;
+}
+.leftImg{
+    width: 75px;
+    height: 75px;
+    transform: rotate(-34deg);
+    z-index: 1;
+    transform-origin: bottom left;
+}
+.leftImg img{
+    
+    width: 150px;
+    height: 150px;
+    width: 150px;
+}
+
+.rightImg{
+    width: 75px;
+    background-color: rgba(143, 164, 179, 0.582);
+    height: 75px;
+    transform: rotate(30deg);
+    z-index: 2;
+    transform-origin: bottom right;
+}
+.rightImg img{
+    width: 150px;
+    
+    height: 150px;
+    width: 150px;
+}
+.imgWrapper{
+    z-index: 2;
+    background-color: rgba(143, 164, 179, 0.582);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

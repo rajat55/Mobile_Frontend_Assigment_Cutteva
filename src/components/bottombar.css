@@ -1,0 +1,23 @@
+.bottomBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3px;
+    
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
+.btItem{
+    font-size: 29px;
+    padding: 7px 24px ;
+    padding-bottom: 0px;
+    color: rgba(92, 90, 87, 0.616);
+}
+.btItem:hover{
+    color: black;
+}
+.btItem:active{
+    color: black;
+}

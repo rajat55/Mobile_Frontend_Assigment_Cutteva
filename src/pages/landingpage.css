@@ -1,0 +1,150 @@
+.imgModalContainer{
+    height: 80%;
+    background-color: aquamarine;
+    position: absolute;
+    overflow: hidden;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 90px;
+    overflow: hidden;
+}
+.custumLanding img{
+    width: 90%;
+    
+}
+.custumLanding{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+    
+}
+.rrrController{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.r0{
+    background-color: rgba(213, 233, 101, 0.993);
+    opacity: 95%;
+}
+
+.r45{
+    transform: rotate(9deg);
+    transform-origin: bottom right;
+    background-color: blue;
+    margin-bottom: 30px;
+    opacity: 60%;
+}
+.r135{
+    transform: rotate(17deg);
+    transform-origin: bottom right;
+    background-color: blueviolet;
+    margin-bottom: 30px;
+    opacity: 20%;
+}
+.landingHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nameImg{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    
+}
+.nameImg span{
+    
+    font-weight: 600;
+}
+
+.nameImg img{
+    width: 60px;
+}
+.iconImg{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.controlsWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    margin-top: 10px;
+}
+.controls{
+    background-color: rgba(105, 102, 98, 0.61);
+    padding: 10px ;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    flex-direction: column;
+    z-index: 4;
+    gap: 10px;
+}
+.cys{
+    flex-direction: column;
+}
+.landingNameDesc{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    z-index: 5;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.landingNameDesc h3{
+    margin: 0px;
+    font-size: 30px;
+}
+.landingNameDesc p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+.circleWrapper{
+    position: relative;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 15, 14);
+    border-radius: 50%;
+    margin-top: -100px;
+    z-index: 10;
+    position: absolute;
+    right: -50px;
+    border: 4px solid white;
+    color: white;
+}
+.equal{
+    position: absolute;
+    top : 32px;
+    left: 32px;
+    font-size: 30px;
+}
+
+.lastControllers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 44px;
+}
